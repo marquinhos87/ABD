@@ -1,6 +1,6 @@
 #!/bin/sh
 
-PROJET_DIR="/Users/joaomarques/Universidade/MIEI/4º ano/1º semestre/Administração de Bases de Dados/Projeto/ABD/tpc-h/"
+PROJET_DIR="/Users/joaomarques/Universidade/MIEI/4º ano/1º semestre/Administração de Bases de Dados/Projeto/ABD/Marques/EscadaTPC-C/"
 
 createdb -h localhost tpcc
 psql -h localhost -f ${PROJET_DIR}target/tpc-c-0.1-SNAPSHOT-tpc-c/tpc-c-0.1-SNAPSHOT/etc/sql/postgresql/createtable.sql tpcc
