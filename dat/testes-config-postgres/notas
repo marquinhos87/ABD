@@ -5,8 +5,8 @@ teste 1: SHARED_BUFFER
 
 	TPCC-2020-01-02_15_52-TPC-C-time-10-clients-10500-frag-1-think-true.dat
 	shared_buffer = 128MB
-	print: config-base-1
-	print: config-base-2
+	print: base-config/config-base-1
+	print: base-config/config-base-2
 	------------------------------------------------------------------------
 	TPCC-2020-01-02_16_12-TPC-C-time-10-clients-10500-frag-1-think-true.dat
 	shared_buffer = 256MB
@@ -49,5 +49,19 @@ teste2 : WORK_MEM
 	work_mem = 64MB
 	print: work_mem/4-1
 	print: work_mem/4-2
+
+Configuração ótima:
+
+tentativa1:
+	TPCC-2020-01-02_19_22-TPC-C-time-10-clients-10500-frag-1-think-true.dat
+	shared_buffer = 1024MB
+	work_mem = 16MB
+	print: best-config/1-1
+	print: best-config/1-2
+
+
+
+
+
 
 
