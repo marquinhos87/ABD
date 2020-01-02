@@ -1,12 +1,23 @@
 referência:
-	TPCC-2020-01-02_14_50-TPC-C-time-10-clients-10500-frag-1-think-true.dat
-	com a configuração original
-	benchmark graphs: base.png
+	TPCC-2020-01-02_15_52-TPC-C-time-10-clients-10500-frag-1-think-true.dat
 
 teste 1:
-	TPCC-2020-01-02_14_28-TPC-C-time-10-clients-10500-frag-1-think-true.dat
-
+	TPCC-2020-01-02_15_52-TPC-C-time-10-clients-10500-frag-1-think-true.dat
 	antes shared_buffer = 128MB
+	print: original-1
+	print: original-2
+	------------------------------------------------------------------------
+	TPCC-2020-01-02_16_12-TPC-C-time-10-clients-10500-frag-1-think-true.dat
 	agora shared_buffer = 256MB
-
-	benchmark graphs: 1.png
+	print: 1-1
+	print: 1-2
+	------------------------------------------------------------------------
+	TPCC-2020-01-02_16_30-TPC-C-time-10-clients-10500-frag-1-think-true.dat
+	agora shared_buffer = 512MB
+	print: 2-1
+	print: 2-2
+	------------------------------------------------------------------------
+	
+	agora shared_buffer = 1024MB
+	print: 3-1
+	print: 3-2
