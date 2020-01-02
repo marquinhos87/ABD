@@ -50,6 +50,13 @@ teste2 : WORK_MEM
 	print: work_mem/4-1
 	print: work_mem/4-2
 
+teste3 : WAL_BUFFERS
+	
+	TPCC-2020-01-02_20_13-TPC-C-time-10-clients-10500-frag-1-think-true.dat
+	wal_buffers=-1
+	print: wal_buffers/1-1
+	print: wal_buffers/1-2
+
 Configuração ótima:
 
 tentativa1:
@@ -60,6 +67,12 @@ tentativa1:
 	print: best-config/1-2
 
 
+	TPCC-2020-01-02_20_13-TPC-C-time-10-clients-10500-frag-1-think-true.dat
+	shared_buffer = 1024MB
+	work_mem = 16MB
+	wal_buffers=-1
+	print: best-config/2-1
+	print: best-config/2-2
 
 
 
