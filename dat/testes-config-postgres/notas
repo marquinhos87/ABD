@@ -51,6 +51,9 @@ teste2 : WORK_MEM
 	print: work_mem/4-2
 
 teste3 : WAL_BUFFERS
+
+	NOTA: AQUI USAMOS O PADRÃO COM O SHARED_BUFFER=1024MB
+	TPCC-2020-01-02_18_47-TPC-C-time-10-clients-10500-frag
 	
 	TPCC-2020-01-02_20_13-TPC-C-time-10-clients-10500-frag-1-think-true.dat
 	wal_buffers=-1
