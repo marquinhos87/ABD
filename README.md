@@ -1,6 +1,8 @@
-# ABD-project
+# UMINHO 19/20 - Administração de Bases de Dados
 
-# Grupo:
+## Grupo:
  - José Pereira (josepereira1)
  - Ricardo Petronilho (RicardoPetronilho98)
  - João Marques (marquinhos87)
+
+## Relatório
